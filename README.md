@@ -344,3 +344,124 @@ Todo Abreviado
 ```
 background: url("") no-repeat right center;
 ```
+
+
+Tamano de el fondo
+
+
+```
+background-size: cover;
+background-size: contain;
+```
+
+
+El primero expande la imagen lo mas que pueda
+
+El segundo expande pero no cubrira el ancho de altura
+
+
+Attachment
+
+```
+background-attachment: fixed;
+                      scroll;
+```
+
+
+El primero se desplaza
+
+
+**Generando tablas en HTML**
+
+```
+<table>
+<tr>
+<th> titulos </th>
+</tr>
+<td>
+texto
+</td>
+</table>
+```
+
+
+row es fila
+
+
+col es columna
+
+
+```
+<th scope="row"> Texto </th>
+<table>
+<tr>
+<th scope="col">Texto</th>
+</tr>
+<td>
+</td>
+</table>
+```
+
+
+**Editando la table en CSS**
+
+
+Bordes
+
+
+```
+table, td{
+border: 1px solid black;
+}
+```
+
+
+Abarcar varias columnas
+
+
+```
+<td colspan="2"> Texto<td>
+```
+
+
+Abarcar varias filas
+
+
+```
+<td rowspan="3">Texto dos<td>
+```
+
+
+Tablas Grandes
+
+
+```
+<table>
+<tbody>
+
+
+</tbody>
+</table>
+```
+
+
+Separar elementos usando el
+```
+<thead>
+</thead>
+```
+
+Cortar usando
+```
+<tfoot>
+```
+
+
+**Cambiar el tamano desde CSS**
+
+
+```
+table, th, td{
+  font-size: 18px;
+}
+```
